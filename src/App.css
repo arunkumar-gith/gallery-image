@@ -1,0 +1,61 @@
+.App {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header {
+  border: 2px solid black;
+  display: flex;
+  height: 10%;
+}
+
+.logo {
+  height: 50px;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  height: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content-logo {
+  border: 1px solid black;
+  width: 20%;
+  padding: 2px;
+}
+.content-title {
+  border: 1px solid black;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.headImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25vh;
+  border: 2px solid black;
+  font-weight: bold;
+  font-size: large;
+}
+
+@media (max-width: 800px) {
+  .content-logo {
+    border: 1px solid black;
+    width: 70%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+  }
+}
